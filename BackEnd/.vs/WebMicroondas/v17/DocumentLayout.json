@@ -1,0 +1,243 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75010094-60D4-45A5-8181-C5E4CBF415F8}|Business\\Business.csproj|c:\\users\\user\\onedrive\\documentos\\github\\webmicroondas\\backend\\business\\exceptions\\microwaveexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75010094-60D4-45A5-8181-C5E4CBF415F8}|Business\\Business.csproj|solutionrelative:business\\exceptions\\microwaveexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75010094-60D4-45A5-8181-C5E4CBF415F8}|Business\\Business.csproj|c:\\users\\user\\onedrive\\documentos\\github\\webmicroondas\\backend\\business\\interfaces\\iprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75010094-60D4-45A5-8181-C5E4CBF415F8}|Business\\Business.csproj|solutionrelative:business\\interfaces\\iprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75010094-60D4-45A5-8181-C5E4CBF415F8}|Business\\Business.csproj|c:\\users\\user\\onedrive\\documentos\\github\\webmicroondas\\backend\\business\\interfaces\\iprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75010094-60D4-45A5-8181-C5E4CBF415F8}|Business\\Business.csproj|solutionrelative:business\\interfaces\\iprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75010094-60D4-45A5-8181-C5E4CBF415F8}|Business\\Business.csproj|c:\\users\\user\\onedrive\\documentos\\github\\webmicroondas\\backend\\business\\interfaces\\imicrowaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75010094-60D4-45A5-8181-C5E4CBF415F8}|Business\\Business.csproj|solutionrelative:business\\interfaces\\imicrowaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75010094-60D4-45A5-8181-C5E4CBF415F8}|Business\\Business.csproj|c:\\users\\user\\onedrive\\documentos\\github\\webmicroondas\\backend\\business\\models\\heatingprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75010094-60D4-45A5-8181-C5E4CBF415F8}|Business\\Business.csproj|solutionrelative:business\\models\\heatingprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75010094-60D4-45A5-8181-C5E4CBF415F8}|Business\\Business.csproj|c:\\users\\user\\onedrive\\documentos\\github\\webmicroondas\\backend\\business\\services\\microwaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75010094-60D4-45A5-8181-C5E4CBF415F8}|Business\\Business.csproj|solutionrelative:business\\services\\microwaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75010094-60D4-45A5-8181-C5E4CBF415F8}|Business\\Business.csproj|c:\\users\\user\\onedrive\\documentos\\github\\webmicroondas\\backend\\business\\services\\programservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75010094-60D4-45A5-8181-C5E4CBF415F8}|Business\\Business.csproj|solutionrelative:business\\services\\programservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FF0C079-B15B-456D-AB2E-90AD2862845A}|Data\\Data.csproj|c:\\users\\user\\onedrive\\documentos\\github\\webmicroondas\\backend\\data\\repositories\\programrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FF0C079-B15B-456D-AB2E-90AD2862845A}|Data\\Data.csproj|solutionrelative:data\\repositories\\programrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8790429-4692-4ABF-A115-046CE1526D66}|Hub\\Hub.csproj|c:\\users\\user\\onedrive\\documentos\\github\\webmicroondas\\backend\\hub\\microwavehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8790429-4692-4ABF-A115-046CE1526D66}|Hub\\Hub.csproj|solutionrelative:hub\\microwavehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED84637-6EC1-4972-9351-422F62BBA4AE}|BackEndMicroondas\\BackEndMicroondas.csproj|c:\\users\\user\\onedrive\\documentos\\github\\webmicroondas\\backend\\backendmicroondas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED84637-6EC1-4972-9351-422F62BBA4AE}|BackEndMicroondas\\BackEndMicroondas.csproj|solutionrelative:backendmicroondas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED84637-6EC1-4972-9351-422F62BBA4AE}|BackEndMicroondas\\BackEndMicroondas.csproj|c:\\users\\user\\onedrive\\documentos\\github\\webmicroondas\\backend\\backendmicroondas\\controllers\\microwavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED84637-6EC1-4972-9351-422F62BBA4AE}|BackEndMicroondas\\BackEndMicroondas.csproj|solutionrelative:backendmicroondas\\controllers\\microwavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED84637-6EC1-4972-9351-422F62BBA4AE}|BackEndMicroondas\\BackEndMicroondas.csproj|c:\\users\\user\\onedrive\\documentos\\github\\webmicroondas\\backend\\backendmicroondas\\controllers\\api\\microwaveapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED84637-6EC1-4972-9351-422F62BBA4AE}|BackEndMicroondas\\BackEndMicroondas.csproj|solutionrelative:backendmicroondas\\controllers\\api\\microwaveapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED84637-6EC1-4972-9351-422F62BBA4AE}|BackEndMicroondas\\BackEndMicroondas.csproj|c:\\users\\user\\onedrive\\documentos\\github\\webmicroondas\\backend\\backendmicroondas\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED84637-6EC1-4972-9351-422F62BBA4AE}|BackEndMicroondas\\BackEndMicroondas.csproj|solutionrelative:backendmicroondas\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMicrowaveService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\Business\\Interfaces\\IMicrowaveService.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IMicrowaveService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\Business\\Interfaces\\IMicrowaveService.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IMicrowaveService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T01:26:02.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProgramService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\Business\\Services\\ProgramService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\ProgramService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\Business\\Services\\ProgramService.cs",
+              "RelativeToolTip": "Business\\Services\\ProgramService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T00:50:55.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProgramRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\Data\\Repositories\\ProgramRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\ProgramRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\Data\\Repositories\\ProgramRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\ProgramRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T22:36:51.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MicrowaveService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\Business\\Services\\MicrowaveService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\MicrowaveService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\Business\\Services\\MicrowaveService.cs",
+              "RelativeToolTip": "Business\\Services\\MicrowaveService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T21:04:20.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProgramRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\Business\\Interfaces\\IProgramRepository.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IProgramRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\Business\\Interfaces\\IProgramRepository.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IProgramRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T22:38:32.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IProgramService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\Business\\Interfaces\\IProgramService.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\IProgramService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\Business\\Interfaces\\IProgramService.cs",
+              "RelativeToolTip": "Business\\Interfaces\\IProgramService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T00:51:30.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MicrowaveException.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\Business\\Exceptions\\MicrowaveException.cs",
+              "RelativeDocumentMoniker": "Business\\Exceptions\\MicrowaveException.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\Business\\Exceptions\\MicrowaveException.cs",
+              "RelativeToolTip": "Business\\Exceptions\\MicrowaveException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T21:03:39.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MicrowaveHub.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\Hub\\MicrowaveHub.cs",
+              "RelativeDocumentMoniker": "Hub\\MicrowaveHub.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\Hub\\MicrowaveHub.cs",
+              "RelativeToolTip": "Hub\\MicrowaveHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T22:28:15.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\BackEndMicroondas\\Program.cs",
+              "RelativeDocumentMoniker": "BackEndMicroondas\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\BackEndMicroondas\\Program.cs",
+              "RelativeToolTip": "BackEndMicroondas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T01:08:53.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MicrowaveController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\BackEndMicroondas\\Controllers\\MicrowaveController.cs",
+              "RelativeDocumentMoniker": "BackEndMicroondas\\Controllers\\MicrowaveController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\BackEndMicroondas\\Controllers\\MicrowaveController.cs",
+              "RelativeToolTip": "BackEndMicroondas\\Controllers\\MicrowaveController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T22:45:43.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HeatingProgram.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\Business\\Models\\HeatingProgram.cs",
+              "RelativeDocumentMoniker": "Business\\Models\\HeatingProgram.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\Business\\Models\\HeatingProgram.cs",
+              "RelativeToolTip": "Business\\Models\\HeatingProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T02:44:24.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MicrowaveApiController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\BackEndMicroondas\\Controllers\\Api\\MicrowaveApiController.cs",
+              "RelativeDocumentMoniker": "BackEndMicroondas\\Controllers\\Api\\MicrowaveApiController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\BackEndMicroondas\\Controllers\\Api\\MicrowaveApiController.cs",
+              "RelativeToolTip": "BackEndMicroondas\\Controllers\\Api\\MicrowaveApiController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T01:06:06.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\BackEndMicroondas\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "BackEndMicroondas\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documentos\\GitHub\\WebMicroondas\\BackEnd\\BackEndMicroondas\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "BackEndMicroondas\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T01:23:47.794Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

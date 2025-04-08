@@ -1,0 +1,6 @@
+@BackEndMicroondas_HostAddress = http://localhost:5285
+
+GET {{BackEndMicroondas_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

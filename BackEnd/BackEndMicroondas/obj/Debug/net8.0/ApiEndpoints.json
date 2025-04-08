@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "BackEndMicroondas.Controllers.Api.MicrowaveApiController",
+    "Method": "PauseOrCancel",
+    "RelativePath": "api/MicrowaveApi/pause",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndMicroondas.Controllers.Api.MicrowaveApiController",
+    "Method": "Resume",
+    "RelativePath": "api/MicrowaveApi/resume",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndMicroondas.Controllers.Api.MicrowaveApiController",
+    "Method": "Start",
+    "RelativePath": "api/MicrowaveApi/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BackEndMicroondas.Controllers.Api.HeatingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
