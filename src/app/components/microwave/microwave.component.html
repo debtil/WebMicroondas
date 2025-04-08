@@ -1,0 +1,52 @@
+<div class="container">
+  <h2>Micro-ondas</h2>
+
+  <div class="field">
+    <label>Tempo (segundos):</label>
+    <input
+      type="text"
+      [(ngModel)]="timeSeconds"
+      (focus)="setActiveField('time')"
+      placeholder="Ex: 30" />
+  </div>
+
+  <div class="field">
+    <label>Potência:</label>
+    <input
+      type="text"
+      [(ngModel)]="power"
+      (focus)="setActiveField('power')"
+      placeholder="Ex: 10" />
+  </div>
+
+  <!-- Teclado digital -->
+  <div class="keypad">
+    <div class="row">
+      <button (click)="onInput('1')">1</button>
+      <button (click)="onInput('2')">2</button>
+      <button (click)="onInput('3')">3</button>
+    </div>
+    <div class="row">
+      <button (click)="onInput('4')">4</button>
+      <button (click)="onInput('5')">5</button>
+      <button (click)="onInput('6')">6</button>
+    </div>
+    <div class="row">
+      <button (click)="onInput('7')">7</button>
+      <button (click)="onInput('8')">8</button>
+      <button (click)="onInput('9')">9</button>
+    </div>
+    <div class="row">
+      <button (click)="onInput('0')">0</button>
+      <button (click)="onClear()">C</button>
+    </div>
+  </div>
+
+  <!-- Controles -->
+  <div class="controls">
+    <button (click)="onStart()">Iniciar</button>
+    <button (click)="onQuickStart()">Início Rápido</button>
+    <button (click)="onPauseOrCancel()">Pausar/Cancelar</button>
+    <button (click)="onResume()">Retomar</button>
+  </div>
+</div>
