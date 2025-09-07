@@ -64,8 +64,8 @@ Este projeto simula o funcionamento de um micro-ondas digital com interface web,
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/microondas-digital.git
-cd microondas-digital
+git clone https://github.com/debtil/WebMicroondas.git
+cd webmicroondas
 ```
 
 ### 2. Restaure os pacotes NuGet
@@ -74,13 +74,7 @@ nuget restore
 ```
 
 ### 3. Execute o projeto
-```bash
-# Interface Web
-cd MicroondasDigital.Web
-dotnet run
-
-# API (terminal separado)
-cd MicroondasDigital.API  
+```bash  
 dotnet run
 ```
 
@@ -98,9 +92,6 @@ O projeto inclui uma suíte completa de testes unitários cobrindo:
 ```bash
 # Executar todos os testes
 dotnet test
-
-# Executar com relatório de cobertura
-dotnet test --collect:"XPlat Code Coverage"
 ```
 
 ## Configuração da API
@@ -117,7 +108,6 @@ dotnet test --collect:"XPlat Code Coverage"
   "senha": "microwave123"
 }
 ```
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## Autor
 
