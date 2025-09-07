@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Micro-ondas Digital</title>
+    <link rel="stylesheet" href="style.css" charset="UTF-8">
+</head>
+<body>
+    <div class="microwave-container">
+        <div class="api-status" id="apiStatus">API: Desconectada</div>
+
+        <div class="display-section">
+            <div class="time-display" id="timeDisplay">00:00</div>
+            <div class="power-display" id="powerDisplay">Potência: 10</div>
+            <div class="status-display" id="statusDisplay">Micro-ondas pronto</div>
+        </div>
+
+        <div class="controls-section">
+            <div class="input-group">
+                <label for="timeInput">Tempo (segundos):</label>
+                <input type="number" id="timeInput" min="1" max="120" placeholder="Ex: 30" />
+            </div>
+            <div class="input-group">
+                <label for="powerInput">Potência (1-10):</label>
+                <input type="number" id="powerInput" min="1" max="10" placeholder="Ex: 10" />
+            </div>
+        </div>
+
+        <div class="keypad">
+            <button onclick="addDigit('1')">1</button>
+            <button onclick="addDigit('2')">2</button>
+            <button onclick="addDigit('3')">3</button>
+            <button onclick="addDigit('4')">4</button>
+            <button onclick="addDigit('5')">5</button>
+            <button onclick="addDigit('6')">6</button>
+            <button onclick="addDigit('7')">7</button>
+            <button onclick="addDigit('8')">8</button>
+            <button onclick="addDigit('9')">9</button>
+            <button onclick="clearInput()">C</button>
+            <button onclick="addDigit('0')">0</button>
+            <button onclick="addDigit('00')">00</button>
+        </div>
+
+        <div class="action-buttons">
+            <button class="btn btn-start" onclick="startHeating()">Iniciar</button>
+            <button class="btn btn-pause" onclick="pauseCancel()">Pausa/Cancel</button>
+            <button class="btn btn-config" onclick="openConfigModal()">Config API</button>
+            <button class="btn btn-program" onclick="showTab('newProgram')">Novo Programa</button>
+        </div>
+
+        <div class="tab-section">
+            <div class="tab-buttons">
+                <button class="tab-btn active" onclick="showTab('programs')">Programas</button>
+                <button class="tab-btn" onclick="showTab('newProgram')">Criar Programa</button>
+                <button class="tab-btn" onclick="showTab('logs')">Logs</button>
+            </div>
+
+            <div class="tab-content">
+                <!-- Programas -->
+                <div class="tab-pane active" id="programsTab">
+                    <div class="programs-grid" id="programsGrid"></div>
+                    <div class="program-instructions" id="programInstructions" style="display:none;"></div>
+                </div>
+
+                <!-- Criar Programa -->
+                <div class="tab-pane" id="newProgramTab">
+                    <div class="form-section">
+                        <h3 style="color:#00ff00; margin-bottom:20px;">Criar Programa Customizado</h3>
+                        <form id="programForm">
+                            <div class="form-grid">
+                                <div class="input-group">
+                                    <label for="programName">Nome do Programa *</label>
+                                    <input type="text" id="programName" required />
+                                </div>
+                                <div class="input-group">
+                                    <label for="programFood">Alimento *</label>
+                                    <input type="text" id="programFood" required />
+                                </div>
+                                <div class="input-group">
+                                    <label for="programTime">Tempo (segundos) *</label>
+                                    <input type="number" id="programTime" min="1" max="7200" required />
+                                </div>
+                                <div class="input-group">
+                                    <label for="programPower">Potência (1-10) *</label>
+                                    <input type="number" id="programPower" min="1" max="10" required />
+                                </div>
+                                <div class="input-group">
+                                    <label for="programChar">Caractere de Aquecimento *</label>
+                                    <input type="text" id="programChar" maxlength="1" required />
+                                    <span class="char-preview" id="charPreview">?</span>
+                                </div>
+                                <div class="input-group form-grid-full">
+                                    <label for="programInstructions">Instruções (opcional)</label>
+                                    <textarea id="programInstructions" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-program">Salvar Programa</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Logs -->
+                <div class="tab-pane" id="logsTab">
+                    <h3 style="color:#00ff00; margin-bottom:15px;">Log de Sistema</h3>
+                    <div class="log-viewer" id="logViewer"></div>
+                    <button class="btn btn-pause" onclick="clearLogs()">Limpar Logs</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="messageArea"></div>
+    </div>
+
+    <!-- Modal de Configuração -->
+    <div id="configModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Configuração da API</h3>
+                <span class="close" onclick="closeConfigModal()">&times;</span>
+            </div>
+            <form id="apiConfigForm">
+                <div class="input-group" style="margin-bottom: 15px;">
+                    <label for="apiUsername">Usuário:</label>
+                    <input type="text" id="apiUsername" required value="admin" />
+                </div>
+                <div class="input-group" style="margin-bottom: 15px;">
+                    <label for="apiPassword">Senha:</label>
+                    <input type="password" id="apiPassword" required value="microwave123" />
+                </div>
+                <div class="input-group" style="margin-bottom: 20px;">
+                    <label for="apiUrl">URL da API:</label>
+                    <input type="text" id="apiUrl" placeholder="http://localhost:7000/api" value="http://localhost:7000/api" />
+                </div>
+                <button type="submit" class="btn btn-start">Conectar</button>
+                <button type="button" class="btn btn-pause" onclick="disconnectAPI()">Desconectar</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js" charset="UTF-8"></script>
+</body>
+</html>

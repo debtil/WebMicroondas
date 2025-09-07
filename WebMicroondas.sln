@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMicroondas", "WebMicroondas\WebMicroondas.csproj", "{846B937C-5ADF-4337-A8FD-53BDAEE9F254}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMicroondasTest.Unit", "WebMicroondasTest.Unit\WebMicroondasTest.Unit.csproj", "{1B4293E7-DA4E-4CD6-9A48-DE7F5AD6B42D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMicroondasTest.Integration", "WebMicroondasTest.Integration\WebMicroondasTest.Integration.csproj", "{E14D5B95-9FFA-4980-BB65-44B136BC8D9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{FD31E2F4-6428-4E6C-917B-5EF5638AFFAE}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+		script.js = script.js
+		style.css = style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{380A7511-A354-6D7A-0CC0-8FA1F1BA7B6C}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{846B937C-5ADF-4337-A8FD-53BDAEE9F254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{846B937C-5ADF-4337-A8FD-53BDAEE9F254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{846B937C-5ADF-4337-A8FD-53BDAEE9F254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{846B937C-5ADF-4337-A8FD-53BDAEE9F254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4293E7-DA4E-4CD6-9A48-DE7F5AD6B42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4293E7-DA4E-4CD6-9A48-DE7F5AD6B42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4293E7-DA4E-4CD6-9A48-DE7F5AD6B42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4293E7-DA4E-4CD6-9A48-DE7F5AD6B42D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E14D5B95-9FFA-4980-BB65-44B136BC8D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E14D5B95-9FFA-4980-BB65-44B136BC8D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E14D5B95-9FFA-4980-BB65-44B136BC8D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E14D5B95-9FFA-4980-BB65-44B136BC8D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B4293E7-DA4E-4CD6-9A48-DE7F5AD6B42D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E14D5B95-9FFA-4980-BB65-44B136BC8D9F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76B360DD-A085-429B-8619-1F8EA4EDA944}
+	EndGlobalSection
+EndGlobal
